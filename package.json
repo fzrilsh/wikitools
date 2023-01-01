@@ -1,15 +1,22 @@
 {
   "name": "wikitools",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "WikiHow search tools",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fzrilsh/wikitools.git"
   },
   "keywords": [
-    "wikihow"
+    "scrape wikihow",
+    "wikihow",
+    "wikihow tools",
+    "api wikihow"
   ],
-  "author": "fzrilsh",
+  "author": "Fazril Syaveral Hillaby <npm@fzrilsh>",
   "license": "ISC",
   "dependencies": {
     "jsdom": "^20.0.3",
