@@ -5,7 +5,6 @@ const strSim = require('string-similarity')
 async function scrapeRC(link){
     const content = (await scrape(link)).body
     const { document } = (new JSDOM(content)).window
-    console.log(link)
 
     const steps = []
     const template0 = `({method}) {title}\n{headline}\n{step}`
@@ -43,7 +42,7 @@ async function scrapeRC(link){
         }
     }
 
-    return steps.join('\n\n')
+    return {url: link, steps}
 }
 
 module.exports = async(q) => {
@@ -67,3 +66,4 @@ module.exports = async(q) => {
         throw error
     }
 }
+
