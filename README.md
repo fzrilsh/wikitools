@@ -16,7 +16,7 @@ WikiHow tools for get contents on it
 Install using:
 
 ```shell
-npm install string-similarity --save
+npm install wikitools --save
 ```
 
 In your code:
