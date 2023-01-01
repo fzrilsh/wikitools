@@ -1,0 +1,19 @@
+{
+  "name": "wikitools",
+  "version": "0.2.1",
+  "description": "WikiHow search tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wikihow"
+  ],
+  "author": "fzrilsh",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^20.0.3",
+    "scrape-it": "^5.3.2",
+    "string-similarity": "^4.0.4"
+  }
+}
