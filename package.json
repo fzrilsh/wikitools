@@ -1,6 +1,6 @@
 {
   "name": "wikitools",
-  "version": "0.2.5",
+  "version": "1.2.5",
   "description": "WikiHow search tools",
   "main": "index.js",
   "scripts": {

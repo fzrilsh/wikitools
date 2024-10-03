@@ -1,7 +1,6 @@
-const wikitools = require('wikitools')
+const wikitools = require('../index.js');
 
 (async() => {
     const getStep = await wikitools("how to ride a car?")
-    console.log(getStep.url)
-    console.log(getStep.steps)
-})
+    console.log(JSON.stringify(getStep, null, 2));
+})()
